@@ -19,6 +19,7 @@ private:
 	//Constructors
 public:
 	Section();
+	Section(int cNumber, string cID, string instructor, string location);
 	Section(int callNum, string iD, string instrName, vector<string> meetTimes, vector<int> stdntIDs, string loc);
 	//Destructor
 	~Section();
@@ -27,8 +28,8 @@ public:
 	int GetCallNumber();
 	string GetID();
 	string GetInstructorName();
-	vector<string> GetMeetingTimes();
-	vector<int> GetStudentIDs();
+	vector<string>* GetMeetingTimes();
+	vector<int>* GetStudentIDs();
 	string GetLocation();
 
 	//Mutators

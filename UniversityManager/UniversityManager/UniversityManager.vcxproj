@@ -11,12 +11,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Helper.h" />
     <ClInclude Include="Section.h" />
+    <ClInclude Include="Transducer.h" />
     <ClInclude Include="University.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Section.cpp" />
+    <ClCompile Include="Transducer.cpp" />
+    <ClCompile Include="University.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E9C8B984-6B66-4779-9478-B2A70E2D2C28}</ProjectGuid>
